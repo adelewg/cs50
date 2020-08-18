@@ -84,9 +84,19 @@ void reflect(int height, int width, RGBTRIPLE image[height][width])
         for(int j = 0; j < mid; j++)
         {
             //have to alter the code below because the image is a struc and you have to access the individual RGB values
-            temp = image[i][width - j - 1];
-            image[i][width - j - 1] = image[i][j];
-            image[i][j] = temp;
+            temp = image[i][width - j - 1].rgbtRed;
+            image[i][width - j - 1].rgbtRed = image[i][j].rgbtRed;
+            image[i][j].rgbtRed = temp;
+
+            //Green
+            temp = image[i][width - j - 1].rgbtGreen;
+            image[i][width - j - 1].rgbtGreen = image[i][j].rgbtGreen;
+            image[i][j].rgbtGreen = temp;
+
+            //Blue
+            temp = image[i][width - j - 1].rgbtBlue;
+            image[i][width - j - 1].rgbtBlue = image[i][j].rgbtBlue;
+            image[i][j].rgbtBlue = temp;
         }
     }
     return;
