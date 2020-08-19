@@ -105,5 +105,181 @@ void reflect(int height, int width, RGBTRIPLE image[height][width])
 // Blur image
 void blur(int height, int width, RGBTRIPLE image[height][width])
 {
+    for(int i = 0; i < height; i++)
+    {
+        for(int j = 0; j < width; j++)
+        {
+            // what is the average red value for all the surrounding pixels?
+            int count_pixels = 0;
+            //image[i][j]
+            int total_red = image[i][j].rgbtRed;
+            count_pixels++;
+
+            if(0 <= j-1 && j-1 < width)
+            {
+                total_red += image[i][j-1].rgbtRed;
+                count_pixels++;
+            }
+
+            if(0 <= j+1 && j+1 < width)
+            {
+                total_red += image[i][j+1].rgbtRed;
+                count_pixels++;
+            }
+
+            if((0 <= i-1 && i-1 < height) && (0 <= j+1 && j+1 < width))
+            {
+                total_red += image[i-1][j+1].rgbtRed;
+                count_pixels++;
+            }
+
+            if((0 <= i-1 && i-1 < height) && (0 <= j-1 && j-1 < width))
+            {
+                total_red += image[i-1][j-1].rgbtRed;
+                count_pixels++;
+            }
+
+            if((0 <= i-1 && i-1 < height) && (0 <= j < width))
+            {
+                total_red += image[i-1][j].rgbtRed;
+                count_pixels++;
+            }
+
+            if((0 <= i+1 && i+1 < height) && (0 <= j < width))
+            {
+                total_red += image[i+1][j].rgbtRed;
+                count_pixels++;
+            }
+
+            if((0 <= i+1 && i+1 < height) && (0 <= j-1 && j-1 < width))
+            {
+                total_red += image[i+1][j-1].rgbtRed;
+                count_pixels++;
+            }
+
+            if((0 <= i+1 && i+1 < height) && (0 <= j+1 && j+1 < width))
+            {
+                total_red += image[i+1][j+1].rgbtRed;
+                count_pixels++;
+            }
+
+            int avgRed = round(total_red/count_pixels);
+            image[i][j].rgbtRed = avgRed;
+
+            //Green
+            count_pixels = 0;
+            int total_green = image[i][j].rgbtGreen;
+            count_pixels++;
+
+            if(0 <= j-1 && j-1 < width)
+            {
+                total_green += image[i][j-1].rgbtGreen;
+                count_pixels++;
+            }
+
+            if(0 <= j+1 && j+1 < width)
+            {
+                total_green += image[i][j+1].rgbtGreen;
+                count_pixels++;
+            }
+
+            if((0 <= i-1 && i-1 < height) && (0 <= j+1 && j+1 < width))
+            {
+                total_green += image[i-1][j+1].rgbtGreen;
+                count_pixels++;
+            }
+
+            if((0 <= i-1 && i-1 < height) && (0 <= j+1 && j+1 < width))
+            {
+                total_green += image[i-1][j+1].rgbtGreen;
+                count_pixels++;
+            }
+
+            if((0 <= i-1 && i-1 < height) && (0 <= j < width))
+            {
+                total_green += image[i-1][j].rgbtGreen;
+                count_pixels++;
+            }
+
+            if(0 <= i+1 && i+1 < height)
+            {
+                total_green += image[i+1][j].rgbtGreen;
+                count_pixels++;
+            }
+
+            if((0 <= i+1 && i+1 < height) && (0 <= j-1 && j-1 < width))
+            {
+                total_green += image[i+1][j-1].rgbtGreen;
+                count_pixels++;
+            }
+
+            if((0 <= i+1 && i+1 < height) && (0 <= j+1 && j+1 < width))
+            {
+                total_green += image[i+1][j+1].rgbtGreen;
+                count_pixels++;
+            }
+
+            int avgGreen = round(total_green/count_pixels);
+            image[i][j].rgbtGreen = avgGreen;
+
+            //Blue
+            count_pixels = 0;
+            int total_blue = image[i][j].rgbtBlue;
+            count_pixels++;
+
+            if(0 <= j-1 && j-1 < width)
+            {
+                total_blue += image[i][j-1].rgbtBlue;
+                count_pixels++;
+            }
+
+            if(0 <= j+1 && j+1 < width)
+            {
+                total_blue += image[i][j+1].rgbtBlue;
+                count_pixels++;
+            }
+
+            if((0 <= i-1 && i-1 < height) && (0 <= j+1 && j+1 < width))
+            {
+                total_blue += image[i-1][j+1].rgbtBlue;
+                count_pixels++;
+            }
+
+            if((0 <= i-1 && i-1 < height) && (0 <= j-1 && j-1 < width))
+            {
+                total_blue += image[i-1][j-1].rgbtBlue;
+                count_pixels++;
+            }
+
+            if((0 <= i-1 && i-1 < height) && (0 <= j < width))
+            {
+                total_blue += image[i-1][j].rgbtBlue;
+                count_pixels++;
+            }
+
+            if((0 <= i+1 && i+1 < height) && (0 <= j < width))
+            {
+                total_blue += image[i+1][j].rgbtBlue;
+                count_pixels++;
+            }
+
+            if((0 <= i+1 && i+1 < height) && (0 <= j-1 && j-1 < width))
+            {
+                total_blue += image[i+1][j-1].rgbtBlue;
+                count_pixels++;
+            }
+
+            if((0 <= i+1 && i+1 < height) && (0 <= j+1 && j+1 < width))
+            {
+                total_blue += image[i+1][j+1].rgbtBlue;
+                count_pixels++;
+            }
+
+            int avgBlue = round(total_blue/count_pixels);
+            image[i][j].rgbtBlue = avgBlue;
+
+
+        }
+    }
     return;
 }
