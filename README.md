@@ -14,4 +14,9 @@ Filter
 ### Pset5
 ### Pset6
 ### Pset7
+**MOVIES**  
+Description: Write 12 sql queries to answer questions on movies in the imdb database.  
+What I learnt: How to write sql queries, compute averages and combine tables.  
+
+**HOUSES**
 ### Pset8
