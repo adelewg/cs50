@@ -3,17 +3,19 @@
 Please keep in mind Harvards policy on academic integrity and dont submit my solutions as they are
 
 ### Pset1
-**Mario**
-*Description:* 
+**Mario**. 
+
+*Description:*   
 *What I learned:*
 
-**Cash**
-*Description:*
-*What I learned:*
+**Cash**   
+*Description:*   
+*What I learned:*  
 
-**Credit**
-*Description:*
-*What I learned:*
+
+**Credit**  
+*Description:*   
+*What I learned:*  
 
 ### Pset2
 **Readability**
