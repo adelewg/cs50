@@ -18,25 +18,25 @@ Please keep in mind Harvards policy on academic integrity and dont submit my sol
 *What I learned:*  
 
 ### Pset2
-**Readability**
-*Description:*
+**Readability**  
+*Description:*  
 *What I learned:*
 
-**Caesar**
-*Description:*
+**Caesar**   
+*Description:*   
 *What I learned:*
 
-**Substitution**
-*Description:*
+**Substitution**  
+*Description:*    
 *What I learned:*
 
-### Pset3
-**Plurality**
-*Description:*
+### Pset3     
+**Plurality**      
+*Description:*      
 *What I learned:*
 
-**Runoff**
-*Description:*
+**Runoff**      
+*Description:*    
 *What I learned:*
 
 
