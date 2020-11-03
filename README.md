@@ -3,9 +3,9 @@
 Please keep in mind Harvards policy on academic integrity and dont submit my solutions as they are
 
 ### Pset1
-**Mario**. 
+**Mario** 
 
-*Description:*   
+*Description:* Draw a tower in the Mario game using the '#' character     
 *What I learned:*
 
 **Cash**   
