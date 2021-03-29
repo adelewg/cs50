@@ -61,6 +61,6 @@ Please keep in mind Harvards policy on academic integrity and dont submit my sol
 *What I learnt:* How to write sql queries, compute averages and combine tables.  
 
 **Fiftyville**      
-*Description:* Write sql queries to query a database of various tables inorder to solve a crime. To find out who stole the CS50 duck, which city the thief is headed to and who the accomplice is.
+*Description:* Write sql queries to query a database of various tables inorder to solve a crime. To find out who stole the CS50 duck, which city the thief is headed to and who the accomplice is.\
 *What I learnt:* I got lots of practice writing sql queries, escpecially nested sql queries to combine tables. I also learned how efficient a sql database is at storing large amounts of data while using the least amount of space. I also learned about normalisations and using join tables to reduce data redundancies.
 ### Pset8
