@@ -54,6 +54,10 @@ Please keep in mind Harvards policy on academic integrity and dont submit my sol
 *What I learned:*
 
 ### Pset5
+
+**DNA**\
+*Description* Write a python program that takes a DNA sequence and checks if there is a match in the database\
+*What I learnt:*\
 ### Pset6
 ### Pset7
 **MOVIES**  
