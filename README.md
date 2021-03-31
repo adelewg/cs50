@@ -55,10 +55,13 @@ Please keep in mind Harvards policy on academic integrity and dont submit my sol
 
 ### Pset5
 
-**DNA**\
-*Description* Write a python program that takes a DNA sequence and checks if there is a match in the database\
-*What I learnt:*\
+
 ### Pset6
+
+**DNA**\
+*Description* Write a python program that takes a DNA sequence and checks for a possible match in a dna database. By checking for consequtive STR repeats in the DNA sequence\
+*What I learnt:* I learned how easy it is to work with python especially when it comes to string manipulation. As Strings in python are an object type with their own methods that can act on them. In a language like C, strings are actually pointers to a char as they are not a defined object type. C programs however run faster on average becuase when one runs a C program, they are running machine code which is what is produced from the compile stage. As python is an interpreted language - it has to be translated line by line into machine language and this adds onto the running time of a program. In addition with python you are using a librabry of code with allot of things already prebuilt for you and some of these solutions would be more general purpose solutions as opposed to a very specific one that you might code for your problem and this could make the code run slower than a C program.\
+
 ### Pset7
 **MOVIES**  
 *Description:* Write 12 sql queries to answer questions on movies in the imdb database.  
