@@ -56,7 +56,11 @@ Please keep in mind Harvards policy on academic integrity and dont submit my sol
 ### Pset5
 
 
-### Pset6
+### Pset6 \
+**Mario**\ 
+*Description* \ Implement a program that prints a double half pyramid, inspired by the video game Mario.
+*What I learnt* \ Practice working with print statements in python and validating user input.
+
 
 **DNA**\
 *Description* Write a python program that takes a DNA sequence and checks for a possible match in a dna database. By checking for consequtive STR repeats in the DNA sequence\
