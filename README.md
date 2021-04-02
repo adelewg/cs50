@@ -63,7 +63,7 @@ Please keep in mind Harvards policy on academic integrity and dont submit my sol
 
 
 **Credit**     
-*Description:* 
+*Description:*     
 *What I learned:* When converting my C code to python, I created a logical error due to the fact that in the C code I worked with int data types which was an essential part of the logic of the code.     
 
 **DNA**\
