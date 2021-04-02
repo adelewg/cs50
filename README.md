@@ -14,7 +14,7 @@ Please keep in mind Harvards policy on academic integrity and dont submit my sol
 
 
 **Credit**     
-*Description:*       
+*Description:*   
 *What I learned:*      
 
 ### Pset2
