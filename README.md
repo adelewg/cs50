@@ -58,8 +58,8 @@ Please keep in mind Harvards policy on academic integrity and dont submit my sol
 
 ### Pset6     
 **Mario**     
-*Description* Implement a program that prints a double half pyramid, inspired by the video game Mario.     
-*What I learnt* Practice working with print statements in python and validating user input.    
+*Description: * Implement a program that prints a double half pyramid, inspired by the video game Mario.     
+*What I learnt: * Practice working with print statements in python and validating user input.    
 
 
 **Credit**     
