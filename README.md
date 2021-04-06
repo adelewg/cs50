@@ -83,3 +83,7 @@ Please keep in mind Harvards policy on academic integrity and dont submit my sol
 **Lab8**     
 *Description:* Create a trivia question game, one with buttons to select and the other a free response question which will react to user input. When the user selects the correct answer for examply the button will turn green and text will appear below saying "Correct!"    
 *What I learnt:* I learned how to make web pages dynamic using JavaScript code by adding script tags in the html page. The script tag can be added at the bottom of the body section so that the contents of the document have hopefully all been loaded OR the script tags can be added in the head section. When the script tags are in the head section you can add some logic to check that the contents of the DOM have all loaded before the javascript code can run otherwise you may get an error.
+    
+### Pset9
+Flask framework.   
+You should never trust user input hence defensive programming
