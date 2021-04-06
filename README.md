@@ -86,4 +86,7 @@ Please keep in mind Harvards policy on academic integrity and dont submit my sol
     
 ### Pset9
 Flask framework.   
-You should never trust user input hence defensive programming
+You should never trust user input hence defensive programming.
+Shopping carts on websited are implemented using cookies.
+User python on the server to dynamically generate
+Ajax
