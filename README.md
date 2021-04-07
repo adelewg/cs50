@@ -1,5 +1,5 @@
 # cs50
-## My solutions for Harvards famous CS50 course 2019 - 2020
+## My solutions for Harvards famous CS50 course 2020 - 2021
 Please keep in mind Harvards policy on academic integrity and dont submit my solutions as they are
 
 ### Pset1
@@ -49,7 +49,7 @@ Please keep in mind Harvards policy on academic integrity and dont submit my sol
 *Description:*
 *What I learned:*
 
-**Recover**
+**Recover**.     
 *Description:*
 *What I learned:*
 
