@@ -91,7 +91,14 @@ Please keep in mind Harvards policy on academic integrity and dont submit my sol
 
 ### Pset9
 Flask framework.   
+A server is just a pieve of software that is constantly listening for http requests on port 80 and port 443
+By convention we capitalise global variables.      
+Flask framework - a way to structure your code and you will typically organise your flask project like this:
+1. application.py (most of your code goes here)
+2. requirements.txt (list of all the libraries that your application will use.
+3. static/
+4. templates/
 You should never trust user input hence defensive programming.
 Shopping carts on websited are implemented using cookies.
-User python on the server to dynamically generate
+Use python on the server to dynamically generate html pages
 Ajax
