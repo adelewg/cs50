@@ -1,5 +1,5 @@
 # cs50
-## My solutions for Harvards famous CS50 course 2020 - 2021
+## My solutions for Harvards famous CS50x course 2020 - 2021
 Please keep in mind Harvards policy on academic integrity and dont submit my solutions as they are
 
 ### Pset1
@@ -97,9 +97,9 @@ Flask framework - a way to structure your code and you will typically organise y
 1. application.py (most of your code goes here)
 2. requirements.txt (list of all the libraries that your application will use.
 3. static/
-4. templates/
-You should never trust user input hence defensive programming.
-Shopping carts on websited are implemented using cookies.
-Use python on the server to dynamically generate html pages
+4. templates/        
+You should never trust user input hence defensive programming.    
+Shopping carts on websited are implemented using cookies.    
+Use python on the server to dynamically generate html pages.    
 Ajax
 Best practice is to store sensitive information like email or passwords in environment variables. Do not type this private information directly inside your code and this is why we imported the 'os' module. A library that comes with Python.
