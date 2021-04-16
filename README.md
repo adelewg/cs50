@@ -1,5 +1,6 @@
 # cs50
 ## My solutions for Harvards famous CS50x course 2020 - 2021
+Introduction to computer Science and the art of programming.  
 Please keep in mind Harvards policy on academic integrity and dont submit my solutions as they are
 
 ### Pset1
