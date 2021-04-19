@@ -33,11 +33,11 @@ Please keep in mind Harvards policy on academic integrity and dont submit my sol
 
 ### Pset3     
 **Plurality**      
-*Description:*      
+*Description:* Implement a program that runs a plurality election in C programming language.         
 *What I learned:*
 
 **Runoff**      
-*Description:*    
+*Description:* Implement a program that runs a runoff election in the C progamming language.    
 *What I learned:*
 
 
@@ -51,8 +51,8 @@ Please keep in mind Harvards policy on academic integrity and dont submit my sol
 *What I learned:*
 
 **Recover**.     
-*Description:*
-*What I learned:*
+*Description:* Implement a program that recovers JPEGs from a forensic image.    
+*What I learned:* Memory management
 
 ### Pset5
 
