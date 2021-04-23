@@ -104,3 +104,7 @@ Shopping carts on websited are implemented using cookies.
 Use python on the server to dynamically generate html pages.    
 Ajax
 Best practice is to store sensitive information like email or passwords in environment variables. Do not type this private information directly inside your code and this is why we imported the 'os' module. A library that comes with Python.
+
+**FINANCE**   
+*Description:* Implement a website via which users can “buy” and “sell” stocks using Flask.    
+*What I learnt:* 
