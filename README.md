@@ -55,7 +55,7 @@ Please keep in mind Harvards policy on academic integrity and dont submit my sol
 *What I learned:* Memory management
 
 ### Pset5
-
+An Array - memory must be contiguous.    
 
 ### Pset6     
 **Mario**     
