@@ -96,7 +96,7 @@ An Array - memory must be contiguous.
 
 ### Pset9
 Flask framework.   
-A server is just a pieve of software that is constantly listening for http requests on port 80 and port 443
+A server is just a piece of software that is constantly listening for http requests on port 80 and port 443
 By convention we capitalise global variables.      
 Flask framework - a way to structure your code and you will typically organise your flask project like this:
 1. application.py (most of your code goes here)
@@ -111,4 +111,4 @@ Best practice is to store sensitive information like email or passwords in envir
 
 **FINANCE**   
 *Description:* Implement a website via which users can “buy” and “sell” stocks using Flask.    
-*What I learnt:* 
+*What I learnt:* I learnt that web applications are built using many different languages - for example with finance I used python, sql and JavaScript (html and CSS for the static pages). I learnt how to design and construct tables in a database to store in this case transactions data and that a "session" is how you go about storing user specific information. I also gained familiarity with using library code for example python functions to hash passwords. 
