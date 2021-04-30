@@ -56,9 +56,11 @@ Please keep in mind Harvards policy on academic integrity and dont submit my sol
 
 ### Pset5
 An Array - memory must be contiguous.    
+Binary Search Trees - A recursive data structure therefore its an opportunity to use recurssive code.
+Hash Tables - an array of linked lists.    
 **SPELLER**
 *Description:* Implement the fastest possible spell checker that spell checks a file using a hash table   
-*What I learnt:*    
+*What I learnt:* Always check pointers for NULL    
 
 
 ### Pset6     
