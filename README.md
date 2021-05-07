@@ -54,6 +54,12 @@ Please keep in mind Harvards policy on academic integrity and dont submit my sol
 *Description:* Implement a program that recovers JPEGs from a forensic image.    
 *What I learned:* Memory management
 
+### Lab5
+**Inheritance**
+*Description:* Simulating the inheritance of blood types for each member of a family.     
+*What I learnt:* I learnt how to use the C programming language to build various data structures using typedef. I also learned how to allocate memory, using pointers and freeing memory after the program has run. I also learned how to make programs more robust by always checking pointers for NULL.    
+
+
 ### Pset5
 An Array - memory must be contiguous.    
 Binary Search Trees - A recursive data structure therefore its an opportunity to use recurssive code.
