@@ -55,7 +55,7 @@ Please keep in mind Harvards policy on academic integrity and dont submit my sol
 *What I learned:* Memory management
 
 ### Lab5
-**Inheritance**
+**INHERITANCE**     
 *Description:* Simulating the inheritance of blood types for each member of a family.     
 *What I learnt:* I learnt how to use the C programming language to build various data structures using typedef. I also learned how to allocate memory, using pointers and freeing memory after the program has run. I also learned how to make programs more robust by always checking pointers for NULL.    
 
