@@ -6,7 +6,7 @@ Please keep in mind Harvards policy on academic integrity and dont submit my sol
 ### Pset1
 **Mario** 
 
-*Description:* Draw a tower in the Mario game using the '#' character     
+*Description:* Draw a tower in the Mario game using the '#' character with the c programming language.   
 *What I learned:*
 
 **Cash**   
